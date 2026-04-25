@@ -12,25 +12,25 @@ import d4 from "@/assets/design-4.jpg";
 const featured = [
   {
     title: "Design 1",
-    category: "Illustration 2024",
+    category: "Illustration 1",
     image: d1,
     slug: "design-1",
   },
   {
     title: "Design 2",
-    category: "Illustration 2024",
+    category: "Illustration 2",
     image: d2,
     slug: "design-2",
   },
   {
     title: "Design 3",
-    category: "Illustration 2024",
+    category: "Illustration 3",
     image: d3,
     slug: "design-3",
   },
   {
     title: "Design 4",
-    category: "Illustration 2024",
+    category: "Illustration 4",
     image: d4,
     slug: "design-4",
   },
@@ -106,13 +106,13 @@ const Home = () => {
                 
                 <div className="flex items-center gap-3">
                   <a
-                    href="mailto:hello@sahana.studio"
+                    href="mailto:sahana06107@gmail.com"
                     className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-navy hover:bg-pink hover:text-white hover:border-pink transition-all"
                   >
                     <Mail size={18} />
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/sahana-k-422050343/"
                     target="_blank"
                     rel="noreferrer"
                     className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-navy hover:bg-pink hover:text-white hover:border-pink transition-all"
