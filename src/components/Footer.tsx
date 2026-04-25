@@ -24,7 +24,7 @@ const Footer = () => (
       <div className="md:justify-self-end">
         <p className="text-[0.75rem] font-bold tracking-widest uppercase text-navy mb-4">Contact</p>
         <a href="mailto:hello@sahana.studio" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-pink transition-colors">
-          <Mail size={16} /> hello@sahana.studio
+          <Mail size={16} /> sahana06107@gmail.com
         </a>
         <a href="https://instagram.com" target="_blank" rel="noreferrer"
            className="mt-3 flex items-center gap-2 text-sm text-muted-foreground hover:text-pink transition-colors">
