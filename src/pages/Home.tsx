@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import { Mail, Linkedin, ArrowRight, Heart, Sparkles } from "lucide-react";
-import hero from "@/assets/hero-luna.jpg"; // hero image
+import hero from "@/assets/hero-luna.jpeg"; // hero image
 
 import d1 from "@/assets/design-1.jpg";
 import d2 from "@/assets/design-2.jpg";
