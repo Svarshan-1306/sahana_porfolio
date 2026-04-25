@@ -39,9 +39,6 @@ export const works: Work[] = [
   { slug: "design-6", title: "Design 6", year: "2024", category: "Kidswear",
     concept: "Playful Silhouettes",
     description: "A bright and energetic kidswear ensemble focusing on comfort, movement, and joyful colors.",
-    image: d2 },
-  { slug: "design-7", title: "Design 7", year: "2024", category: "Expression",
-    concept: "Narrative Through Cloth",
-    description: "An experimental piece investigating how movement and stillness interact with the wearer.",
-    image: d3 },
+    image: d4 },
+  
 ];
