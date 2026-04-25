@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 38 46% 98%;        /* #fdfbf7 peach light */
+    --foreground: 216 35% 20%;       /* #213045 navy */
+
+    --card: 0 0% 100%;
+    --card-foreground: 216 35% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 216 35% 20%;
+
+    --primary: 342 61% 70%;           /* #e086a0 pink */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 260 55% 90%;         /* #dcd2f6 lavender */
+    --secondary-foreground: 216 35% 20%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 55%;     /* #8c8c8c */
+
+    --accent: 0 82% 81%;            /* #f8a5a5 light pink */
+    --accent-foreground: 216 35% 20%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 342 61% 70%;
+
+    --radius: 1.5rem;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "ss01", "liga";
+  }
+  ::selection { background: hsl(var(--primary) / 0.2); }
+}
+
+@layer utilities {
+  .font-serif-display { font-family: 'Playfair Display', serif; }
+  
+  .glass-card {
+    @apply bg-white/40 backdrop-blur-md border border-white/60 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)];
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-pink to-accent;
+  }
+}
