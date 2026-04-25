@@ -25,9 +25,9 @@ const Contact = () => {
         >
           <div>
             <p className="text-[0.65rem] tracking-label uppercase text-muted-foreground mb-4">Email</p>
-            <a href="mailto:hello@sahana.studio" className="font-serif-display text-2xl md:text-3xl flex flex-col gap-3 hover:text-accent transition-colors">
+            <a href="mailto:sahana06107@gmail.com" className="font-serif-display text-2xl md:text-3xl flex flex-col gap-3 hover:text-accent transition-colors">
               <Mail size={24} className="text-accent" />
-              hello@sahana.studio
+              sahana06107@gmail.com
             </a>
           </div>
 
@@ -35,13 +35,13 @@ const Contact = () => {
             <p className="text-[0.65rem] tracking-label uppercase text-muted-foreground mb-4">WhatsApp</p>
             <a href="https://wa.me/" target="_blank" rel="noreferrer" className="font-serif-display text-2xl md:text-3xl flex flex-col gap-3 hover:text-accent transition-colors">
               <Phone size={24} className="text-accent" />
-              Chat with me
+              +91 8072284662
             </a>
           </div>
 
           <div>
             <p className="text-[0.65rem] tracking-label uppercase text-muted-foreground mb-4">LinkedIn</p>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="font-serif-display text-2xl md:text-3xl flex flex-col gap-3 hover:text-accent transition-colors">
+            <a href="https://www.linkedin.com/in/sahana-k-422050343/" target="_blank" rel="noreferrer" className="font-serif-display text-2xl md:text-3xl flex flex-col gap-3 hover:text-accent transition-colors">
               <Linkedin size={24} className="text-accent" />
               Connect
             </a>
