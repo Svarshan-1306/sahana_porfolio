@@ -92,7 +92,7 @@ const AboutMe = () => (
             <div className="space-y-3">
               <p className="text-muted-foreground text-sm md:text-base">(2021)</p>
               <h3 className="font-bold text-navy uppercase text-sm md:text-[0.95rem] tracking-wide leading-snug">NSN MEMORIAL SCHOOL</h3>
-              <p className="text-sm md:text-base text-muted-foreground">SSLC - 79.00%</p>
+              <p className="text-sm md:text-base text-muted-foreground">SSLC - 92.60%</p>
             </div>
           </motion.div>
           
@@ -108,7 +108,7 @@ const AboutMe = () => (
             <div className="space-y-3">
               <p className="text-muted-foreground text-sm md:text-base">(2023)</p>
               <h3 className="font-bold text-navy uppercase text-sm md:text-[0.95rem] tracking-wide leading-snug">NSN MEMORIAL SCHOOL</h3>
-              <p className="text-sm md:text-base text-muted-foreground">HSC - 81.00%</p>
+              <p className="text-sm md:text-base text-muted-foreground">HSC - 90.00%</p>
             </div>
           </motion.div>
           
@@ -123,8 +123,9 @@ const AboutMe = () => (
             <div className="w-3 h-3 bg-navy rounded-full mb-6 hidden md:block relative z-10 ring-4 ring-background"></div>
             <div className="space-y-3">
               <p className="text-muted-foreground text-sm md:text-base">(2023 - 2027)</p>
-              <h3 className="font-bold text-navy uppercase text-sm md:text-[0.95rem] tracking-wide leading-snug">VIT CHENNAI</h3>
-              <p className="text-sm md:text-base text-muted-foreground">B.Tech Fashion Technology</p>
+              <h3 className="font-bold text-navy uppercase text-sm md:text-[0.95rem] tracking-wide leading-snug">VIT CHENNAI - B.Tech Fashion Technology</h3>
+              <p className="text-sm md:text-base text-muted-foreground">CGPA : 9.1
+              </p>
             </div>
           </motion.div>
         </div>
